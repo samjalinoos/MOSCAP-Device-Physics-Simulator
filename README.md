@@ -155,7 +155,3 @@ streamlit run app.py
     ├── validation.py
     └── plots.py
 ```
-
-## Limitations
-
-This is a simplified electrostatic model rather than a full TCAD device simulator, so it assumes one dimensional electrostatics, classical Boltzmann carrier statistics, and equilibrium carrier distributions.
