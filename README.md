@@ -5,7 +5,7 @@ This is a Python simulator for the electrostatics of a 1D MOS capacitor. It nume
 The simulator has an interactive Streamlit interface for changing device parameters and viewing the results. I built this as a practical application of semiconductor device physics and numerical modeling.
 
 <p align="center">
-  <img src="screenshots/Interface.png" width="850" alt="MOSCAP simulator interface">
+  <img src="MOSCAP_Simulator/screenshots/Interface.png" width="850" alt="MOSCAP simulator interface">
 </p>
 
 ## Features
@@ -83,13 +83,13 @@ The same model can also simulate n-type substrates with the corresponding carrie
 ### Carrier Densities
 
 <p align="center">
-  <img src="screenshots/carrierdensities.png" width="750" alt="MOSCAP carrier density profiles">
+  <img src="MOSCAP_Simulator/screenshots/carrierdensities.png" width="750" alt="MOSCAP carrier density profiles">
 </p>
 
 ### Strong Inversion
 
 <p align="center">
-  <img src="screenshots/stronginversion.png" width="750" alt="MOSCAP strong inversion">
+  <img src="MOSCAP_Simulator/screenshots/stronginversion.png" width="750" alt="MOSCAP strong inversion">
 </p>
 
 ## Outputs
