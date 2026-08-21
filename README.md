@@ -4,6 +4,10 @@ This is a Python simulator for the electrostatics of a 1D MOS capacitor. It nume
 
 The simulator has an interactive Streamlit interface for changing device parameters and viewing the results. I built this as a practical application of semiconductor device physics and numerical modeling.
 
+<p align="center">
+  <img src="screenshots/Interface.png" width="850" alt="MOSCAP simulator interface">
+</p>
+
 ## Features
 
 * Nonlinear Poisson-Boltzmann solver
@@ -73,6 +77,20 @@ The simulator reproduces the standard electrostatic regimes of a MOS capacitor:
 **Strong inversion** — At sufficiently positive gate bias, electrons become the dominant carrier near the surface and form an inversion layer.
 
 The same model can also simulate n-type substrates with the corresponding carrier behavior reversed.
+
+## Example Results
+
+### Carrier Densities
+
+<p align="center">
+  <img src="screenshots/carrierdensities.png" width="750" alt="MOSCAP carrier density profiles">
+</p>
+
+### Strong Inversion
+
+<p align="center">
+  <img src="screenshots/stronginversion.png" width="750" alt="MOSCAP strong inversion">
+</p>
 
 ## Outputs
 
